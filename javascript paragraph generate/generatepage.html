@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paragraph Generator</title>
+    <link rel="stylesheet" href="generate.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tired of Boring Lorem Ipsum?</h1>
+        <div class="input-container">
+            <label for="numParagraphs">Paragraphs:</label>
+            <input type="number" id="numParagraphs" min="1" max="10" value="5">
+            <button onclick="generateParagraphs()">Generate</button>
+        </div>
+        <div id="output" class="output-container"></div>
+    </div>
+    <script src="generate.js"></script>
+</body>
+</html>
