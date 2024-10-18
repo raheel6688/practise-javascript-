@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Background & Form</title>
+    <link rel="stylesheet" href="submit.css">
+    <link rel="icon" href="logo.webp" type="image/png">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="box">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    
+   
+    <div class="container">
+        <div>
+            <h1 style="font-size: 2.5em;color: rgb(128, 5, 177);">CLICK THE OPEN FORM BUTTON</h1>
+      </div>
+        <button id="openFormBtn">Open Form</button>
+    </div>
+
+    <div id="formPopup" class="form-popup">
+        <form id="userForm" class="form-container">
+            <h2>Fill in your details</h2>
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName" required>
+
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastName" required>
+
+            <label for="surname">Surname</label>
+            <input type="text" id="surname" name="surname" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </div>
+
+    
+
+    <script src="submit.js"></script>
+</body>
+</html>
